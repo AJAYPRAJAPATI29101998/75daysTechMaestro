@@ -11,6 +11,7 @@ public class BuyAndSellStock {
             diff = prices[i]-buy;
             buy = Math.min(buy , prices[i]);
             profit = Math.max(diff , profit);
+
         }
         return profit;
 
